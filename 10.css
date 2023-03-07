@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: shantell;
+    src: url(fonts/ShantellSans-Italic-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf);
+}
+html{
+    font-family: shantell;
+}
 /*
 .imagen{
     background: url(Imagen1.jpg);
@@ -17,7 +24,7 @@ header{
     display: flex;
     padding: 15px;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     border-bottom: 2px solid pink;
 }
 header h1{
@@ -27,7 +34,7 @@ header ul{
     display: flex;
     flex-direction: row;
     margin-left:15vw ;
-
+    
 }
 header ul li{
     list-style: none;
@@ -59,7 +66,7 @@ header ul li a:hover{
     padding-top: 50px;
     padding-left: 50px;
     padding-bottom: 30px;
-    font-size: 35px;
+    font-size: 30px;
     width: 40vw;
     color: #a74c43;
 
@@ -68,7 +75,7 @@ header ul li a:hover{
     padding-top: 15px;
     width: 40vw;
     padding-left: 50px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .Tercerparrafo{
     color: #a74c43;
@@ -105,13 +112,13 @@ header ul li a:hover{
 }
 
 .precios__titulo{
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px;
     text-align: center;
 }
 .precios ul p{
     margin: 15px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .container{
     background-color: #a07878;
@@ -160,7 +167,7 @@ header ul li a:hover{
 .entrega{
     margin-top: 3vh;
     font-size: 25px;
-    background-color: #ffc9c9;
+    background-color: #a07878;
     margin-right: 40vw;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -175,8 +182,10 @@ header ul li a:hover{
     background: url(Images/Imagen3.jpeg);
     background-position: right;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: local;
     background-size: contain;
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
 }
 .ejemplos__imagenes__titulo{
     margin-top: 3vh;
@@ -193,9 +202,10 @@ header ul li a:hover{
     margin: 50% auto;
 }
 .ejemplos__imagenes img{
+    justify-content: center;
     width: 300px;
     height: 300px;
-    margin: 10px;
+    margin: 5px;
     border: 2px solid pink;
     border-radius: 10px;
     -webkit-border-radius: 10px;
