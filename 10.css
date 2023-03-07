@@ -3,24 +3,31 @@
     margin: 0;
     padding: 0;
 }
-
+/*
+.imagen{
+    background: url(Imagen1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+*/
 header{
-    background-color: #732e7c;
     color: #e558a5;
     display: flex;
     padding: 15px;
     text-align: center;
-    border-radius:10px;
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    -ms-border-radius:10px;
-    -o-border-radius:10px;
-    
+    font-size: 25px;
+    border-bottom: 2px solid pink;
+}
+header h1{
+    padding-left: 3vw;
 }
 header ul{
     display: flex;
     flex-direction: row;
-    margin-left:35px ;
+    margin-left:15vw ;
+
 }
 header ul li{
     list-style: none;
@@ -28,10 +35,10 @@ header ul li{
 }
 header ul li a{
     text-decoration: none;
-    color:#ffffff ;
-    font-size: 20px;
+    color:#040404 ;
+    font-size: 25px;
     transition: all 0.2s;
-    margin: 20px;
+    margin: 5px;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
@@ -43,11 +50,10 @@ header ul li a:hover{
 .definition{
     background-color: #5d575b73;
     height: 70vh;
-    background: url(Imagen1.jpg);
+    background: url(Images/Imagen1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: right;
     background-attachment: fixed;
-    background-position: center;
 }
 .definition h3{
     padding-top: 50px;
@@ -56,6 +62,7 @@ header ul li a:hover{
     font-size: 35px;
     width: 40vw;
     color: #a74c43;
+
 }
 .definition p{
     padding-top: 15px;
@@ -65,7 +72,11 @@ header ul li a:hover{
 }
 .Tercerparrafo{
     color: #a74c43;
-    font-size: 20px
+    font-size: 20px;
+
+}
+.definition{
+    border-bottom: 2px solid pink;
 }
 .precios_contact{
     background-color: #ffc9c9;
@@ -77,10 +88,11 @@ header ul li a:hover{
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-
+    margin-top: 3vw;
 }
 .precios{
     width: 50vw;
+
 }
 .imagen img{
     width: 50vw;
@@ -89,6 +101,7 @@ header ul li a:hover{
 }
 .precios{
     margin-left: 5vw;
+
 }
 
 .precios__titulo{
@@ -104,14 +117,10 @@ header ul li a:hover{
     background-color: #a07878;
     display: flex;
     width: 50vw;
-    margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 3vh;
     padding: 10vh;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .contact{
     margin-left: 15vw;
@@ -149,14 +158,48 @@ header ul li a:hover{
     margin-top: 15px;
 }
 .entrega{
-    padding: 50px;
+    margin-top: 3vh;
     font-size: 25px;
+    background-color: #ffc9c9;
+    margin-right: 40vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: justify;
+    padding: 15px;
 }
 .entrega__titulo{
-    color: #a74c43;
+    color: #323232;
+    font-size: 40px;
+}
+.imagen2{
+    background: url(Images/Imagen3.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
 }
 .ejemplos__imagenes__titulo{
+    margin-top: 3vh;
     padding-left: 50px;
     font-size: 25px;
     background-color: #bba2a2;
+    text-align: center;
+    font-size: 30px;
+}
+.ejemplos__imageness{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 50% auto;
+}
+.ejemplos__imagenes img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
